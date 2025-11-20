@@ -1,0 +1,84 @@
+
+	package lab_session;
+
+	import java.time.Duration;
+
+	import org.openqa.selenium.By;
+	import org.openqa.selenium.WebDriver;
+	import org.openqa.selenium.WebElement;
+	import org.openqa.selenium.chrome.ChromeDriver;
+
+	public class Login_Acc_test_fill {
+
+		
+		
+		
+		public static void main(String[] args) throws InterruptedException {
+			
+			
+			
+			
+	WebDriver driver = new ChromeDriver();
+			
+			driver.manage().window().maximize();
+			
+			driver.get("http://localhost/espocrm/");
+			
+			
+			
+			Thread.sleep(Duration.ofSeconds(5));
+			
+			
+			By locatorUsername = By.id("field-userName");
+			WebElement txtUsername = driver.findElement(locatorUsername);
+			txtUsername.sendKeys("admin");
+			Thread.sleep(Duration.ofSeconds(5));
+			
+			
+			System.out.println("Text Entered in txtUsername is "+txtUsername.getText());
+			System.out.println("Text Entered in txtUsername is "+txtUsername.getAttribute("value"));
+
+			
+			By locatorPassword = By.name("password");
+			WebElement txtPassword = driver.findElement(locatorPassword);
+			txtPassword.sendKeys("admin");
+			Thread.sleep(Duration.ofSeconds(5));
+
+			
+			driver.findElement(By.className("fa-eye")).click();
+			Thread.sleep(Duration.ofSeconds(5));
+
+			By locatorLogin = By.tagName("button");
+			WebElement btnLogin = driver.findElement(locatorLogin);
+			btnLogin.click();
+			
+			
+			Thread.sleep(Duration.ofSeconds(5));
+			
+			
+			driver.navigate().to("http://localhost/espocrm/#Account");
+			Thread.sleep(Duration.ofSeconds(5));
+
+			By checkboxlocator = By.className("select-all");
+			WebElement ch_locator = driver.findElement(checkboxlocator);
+			Thread.sleep(Duration.ofSeconds(5));
+			System.out.println("Before select : "+ch_locator.isSelected());
+
+			ch_locator.click();
+			Thread.sleep(Duration.ofSeconds(5));
+
+			System.out.println("After select : "+ch_locator.isSelected());
+			
+			
+			
+					
+			
+			
+			
+			
+			driver.quit();
+
+		}
+	}
+
+

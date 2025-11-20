@@ -1,0 +1,31 @@
+package second;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Lab_1 {
+
+	public static void main(String[] args) {
+		
+	
+	WebDriver dr = new ChromeDriver();
+	
+	dr.get("https://school.moodledemo.net/");
+	
+	
+	String sr = dr.getCurrentUrl();
+	System.out.println(sr);
+	
+	
+	String Title = dr.getTitle();
+	System.out.println(Title);
+	
+	
+	String source = dr.getPageSource();
+	System.out.println(source);
+	
+	dr.quit();
+	
+	
+	}
+}

@@ -1,0 +1,46 @@
+package second;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Lab_1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+	
+	WebDriver dr = new ChromeDriver();
+	
+	dr.get("https://school.moodledemo.net/");
+	
+	
+	String sr = dr.getCurrentUrl();
+	System.out.println(sr);
+	
+	
+	String Title = dr.getTitle();
+	System.out.println(Title);
+	
+	
+	String source = dr.getPageSource();
+	System.out.println(source);
+	
+	
+	dr.get("hhttps://school.moodledemo.net/login/index.php");
+	dr.navigate().back();
+	
+	System.out.println("Back to lms website");
+	Thread.sleep(Duration.ofSeconds(5));
+	
+	System.out.println("Going farward to login page ");
+	
+	dr.navigate().forward();
+	
+	
+	
+	dr.quit();
+	
+	
+	}
+}

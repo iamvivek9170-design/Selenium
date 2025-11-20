@@ -1,0 +1,12 @@
+package lab_session;
+
+public class CheckElementExist {
+
+	public static boolean element_exist() {
+		
+		
+	}
+	
+	
+	
+}

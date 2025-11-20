@@ -1,0 +1,30 @@
+package lab_session;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class lab_file {
+
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+		
+		
+		WebDriver dr = new ChromeDriver();
+		
+		dr.get("http://localhost/samples/elements.php");
+		
+		By locate = By.id("fileUpload");
+		WebElement file = dr.findElement(locate);
+		file.sendKeys("C:\\Users\\cdac\\Desktop\\vivek\\Selenium\\lab\\src\\main\\java\\lab");
+		file.sendKeys("C:\\Users\\cdac\\Desktop/summary.csv");
+		Thread.sleep(Duration.ofSeconds(5));
+
+	}
+	
+	
+}
