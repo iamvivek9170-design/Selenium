@@ -1,0 +1,41 @@
+package lab_session;
+
+import java.time.Duration;
+import java.util.LinkedList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class all_link_google {
+public static void main(String[] args) throws InterruptedException {
+	
+	WebDriver dr = new ChromeDriver();
+	
+	
+	dr.manage().window().maximize();
+	
+	dr.get("http://www.google.com"); // Example URL
+	
+	Thread.sleep(Duration.ofSeconds(5));
+	
+	
+	By a = By.tagName("a");
+	List<WebElement> allLinksOnPage = dr.findElements(a);	
+	
+	System.out.println("Total link : "+allLinksOnPage.size());
+	int i = 1;
+	for (WebElement web : allLinksOnPage) {
+		System.out.println("Link of " +i+"th text : "+web.getText());
+		i++;
+	}
+	
+	
+	dr.quit();
+	
+	
+	
+}
+}

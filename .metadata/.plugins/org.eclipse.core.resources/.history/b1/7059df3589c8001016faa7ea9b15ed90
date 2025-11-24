@@ -1,0 +1,50 @@
+package lab_session;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class add_acc {
+public static void main(String[] args) throws InterruptedException {
+	
+	
+	WebDriver dr = new ChromeDriver();
+	dr.manage().window().maximize();
+
+
+dr.get("http://localhost/espocrm/");
+	
+Thread.sleep(Duration.ofSeconds(5));
+
+dr.findElement(By.name("username")).sendKeys("admin");
+dr.findElement(By.name("password")).sendKeys("admin");
+dr.findElement(By.id("btn-login")).click();
+
+Thread.sleep(Duration.ofSeconds(5));
+
+	dr.get("http://localhost/espocrm/#Account");
+	
+//	dr.findElement(By.xpath("")).click();
+	
+	dr.navigate().to("http://localhost/espocrm/#Account");
+	Thread.sleep(Duration.ofSeconds(10));
+
+	dr.findElement(By.xpath("//a[@data-action='create']")).click();
+	
+	
+	Thread.sleep(Duration.ofSeconds(5));
+
+	dr.findElement(By.xpath("//div[@class='iti__selected-flag']")).click();
+
+//	Thread.sleep(Duration.ofSeconds(5));
+
+//	dr.findElement(By.className("iti__country-name")).click();
+	Thread.sleep(Duration.ofSeconds(2));
+
+	dr.findElement(By.xpath("//*[@id='iti-2__item-in']/span[1]")).click();
+	
+	
+}
+}

@@ -1,0 +1,147 @@
+
+	package lab_session;
+
+	import java.sql.Driver;
+import java.time.Duration;
+
+	import org.openqa.selenium.By;
+	import org.openqa.selenium.WebDriver;
+	import org.openqa.selenium.WebElement;
+	import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+	public class Login_Acc_test_fill {
+
+		
+		
+		
+		public static void main(String[] args) throws InterruptedException {
+			
+			
+			
+			
+	WebDriver driver = new ChromeDriver();
+			
+			driver.manage().window().maximize();
+			
+			driver.get("http://localhost/espocrm/");
+			
+			
+			
+			Thread.sleep(Duration.ofSeconds(5));
+			
+			
+			By locatorUsername = By.id("field-userName");
+			WebElement txtUsername = driver.findElement(locatorUsername);
+			txtUsername.sendKeys("admin");
+			Thread.sleep(Duration.ofSeconds(5));
+			
+			
+			System.out.println("Text Entered in txtUsername is "+txtUsername.getText());
+			System.out.println("Text Entered in txtUsername is "+txtUsername.getAttribute("value"));
+
+			
+			By locatorPassword = By.name("password");
+			WebElement txtPassword = driver.findElement(locatorPassword);
+			txtPassword.sendKeys("admin");
+			Thread.sleep(Duration.ofSeconds(5));
+
+			
+			driver.findElement(By.className("fa-eye")).click();
+			Thread.sleep(Duration.ofSeconds(5));
+
+			By locatorLogin = By.tagName("button");
+			WebElement btnLogin = driver.findElement(locatorLogin);
+			btnLogin.click();
+			
+			
+			Thread.sleep(Duration.ofSeconds(5));
+			
+//			// opening menu 
+			WebElement menu = driver.findElement(By.xpath("//button[@class=\"navbar-toggle\"]"));
+//			menu.click();
+//			driver.findElement(By.xpath("//button[@class=\"navbar-toggle\"]")).click();
+
+			
+			// opening account
+			driver.findElement(By.xpath("(//a[@class=\"nav-link\"])[2]")).click();
+			Thread.sleep(Duration.ofSeconds(5));
+			// opening test file 
+			driver.findElement(By.xpath("//a[@class=\"link\"]")).click();
+			Thread.sleep(Duration.ofSeconds(5));
+
+			// Click edit button 
+			driver.findElement(By.xpath("//button[@class=\"btn action btn-xs-wide detail-action-item btn-default radius-left\"]")).click();
+			Thread.sleep(Duration.ofSeconds(5));
+
+			// enter website
+			driver.findElement(By.xpath("(//input[@class=\"main-element form-control\"])[2]")).sendKeys("https://www.google.com/");
+			Thread.sleep(Duration.ofSeconds(5));
+
+			driver.findElement(By.xpath("//input[@class='form-control email-address']")).sendKeys("Vivek123@gmail.com");
+			
+			
+			// phone number 
+			
+			
+			
+			
+			driver.findElement(By.xpath("//input[@class='form-control phone-number numeric-text no-margin-shifting  ']")).sendKeys("1234567891");
+			
+			
+//			driver.findElement(By.xpath("")).sendKeys("");
+			
+			// Billing Address 
+			driver.findElement(By.xpath("(//textarea[@class='form-control auto-height'])[1]")).sendKeys("Panchavti");
+			driver.findElement(By.xpath("(//input[@placeholder=\"City\"])[1]")).sendKeys("Pune");
+			driver.findElement(By.xpath("(//input[@placeholder=\"State\"])[1]")).sendKeys("Maharashtra");
+			driver.findElement(By.xpath("(//input[@placeholder=\"Postal Code\"])[1]")).sendKeys("121234");
+			driver.findElement(By.xpath("(//input[@placeholder=\"Country\"])[1]")).sendKeys("India");
+			
+			
+			// Shopping Address 
+			driver.findElement(By.xpath("(//textarea[@placeholder=\"Street\"])[2]")).sendKeys("Pashan");
+			driver.findElement(By.xpath("(//input[@placeholder=\"City\"])[2]")).sendKeys("Pune");
+			driver.findElement(By.xpath("(//input[@placeholder=\"Country\"])[2]")).sendKeys("India");
+			driver.findElement(By.xpath("(//input[@placeholder=\"State\"])[2]")).sendKeys("Maharashtra");
+			driver.findElement(By.xpath("(//input[@placeholder=\"Postal Code\"])[2]")).sendKeys("121234");
+			
+//			// Detail 
+//				// Types
+//			By ty = By.xpath("//*[@id=\"account-detail-5914\"]/div[4]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div");
+//			Thread.sleep(Duration.ofSeconds(2));
+//			WebElement types = driver.findElement(ty);
+////			Select sc = new Select(types);
+////			sc.selectByIndex(1);
+////			Thread.sleep(Duration.ofSeconds(2));
+//			
+//
+//			
+//				// Industry
+//			WebElement industry = driver.findElement(By.xpath("//*[@id=\"account-detail-5914\"]/div[4]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/div"));
+//			Thread.sleep(Duration.ofSeconds(2));
+//			Select sci = new Select(industry);
+//			sci.selectByContainsVisibleText("agri");
+//			Thread.sleep(Duration.ofSeconds(2));
+
+			
+			// Description 
+			driver.findElement(By.xpath("(//textarea[@class='main-element form-control auto-height'])[1]")).sendKeys("This is the best shoping maal in pune ");
+			Thread.sleep(Duration.ofSeconds(2));
+
+			
+			// Stream 
+		    driver.findElement(By.xpath("//textarea[@id=\"account-detail-5914\"]/div[4]/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/textarea")).sendKeys("");
+			Thread.sleep(Duration.ofSeconds(2));
+
+			//textarea[@class='main-element form-control auto-height'])[2]
+			
+			
+			
+			
+			driver.quit();
+
+		}
+	}
+
+

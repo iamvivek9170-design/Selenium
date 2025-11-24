@@ -8,6 +8,7 @@ import java.time.Duration;
 	import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.WebElement;
 	import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 	public class Login_Acc_test_fill {
 
@@ -81,16 +82,20 @@ import java.time.Duration;
 			
 			
 			// phone number 
+			
+			
+			
+			
 			driver.findElement(By.xpath("//input[@class='form-control phone-number numeric-text no-margin-shifting  ']")).sendKeys("1234567891");
 			
 			
 //			driver.findElement(By.xpath("")).sendKeys("");
 			
 			// Billing Address 
-			driver.findElement(By.xpath("data-name=\"billingAddressStreet")).sendKeys("Panchavti");
-			driver.findElement(By.xpath("//input[@data-name=\"billingAddressCity\"]")).sendKeys("Pune");
-			driver.findElement(By.xpath("//input[@data-name=\"billingAddressState\"]")).sendKeys("Maharastra");
-			driver.findElement(By.xpath("input[@data-name=\"billingAddressPostalCode\"]")).sendKeys("121234");
+			driver.findElement(By.xpath("(//textarea[@class='form-control auto-height'])[1]")).sendKeys("Panchavti");
+			driver.findElement(By.xpath("(//input[@placeholder=\"City\"])[1]")).sendKeys("Pune");
+			driver.findElement(By.xpath("(//input[@placeholder=\"State\"])[1]")).sendKeys("Maharashtra");
+			driver.findElement(By.xpath("(//input[@placeholder=\"Postal Code\"])[1]")).sendKeys("121234");
 			driver.findElement(By.xpath("(//input[@placeholder=\"Country\"])[1]")).sendKeys("India");
 			
 			
@@ -98,14 +103,43 @@ import java.time.Duration;
 			driver.findElement(By.xpath("(//textarea[@placeholder=\"Street\"])[2]")).sendKeys("Pashan");
 			driver.findElement(By.xpath("(//input[@placeholder=\"City\"])[2]")).sendKeys("Pune");
 			driver.findElement(By.xpath("(//input[@placeholder=\"Country\"])[2]")).sendKeys("India");
-			driver.findElement(By.xpath("(//input[@placeholder=\"State\"])[2]")).sendKeys("Maharastra");
+			driver.findElement(By.xpath("(//input[@placeholder=\"State\"])[2]")).sendKeys("Maharashtra");
 			driver.findElement(By.xpath("(//input[@placeholder=\"Postal Code\"])[2]")).sendKeys("121234");
 			
+//			// Detail 
+//				// Types				
+			// Click the input (from Step 1)
+			driver.findElement(By.xpath("//div[@data-name='type']//div[contains(@class, 'selectize-input')]")).click();
+
+			// Find and click the 'Customer' option (Step 2)
+			driver.findElement(By.xpath("//div[contains(@class, 'selectize-dropdown')]//div[@data-value='Customer']")).click();		
 			
-			// Description 
-			driver.findElement(By.xpath("//textarea[@class = \"main-element form-control auto-height\"]")).sendKeys("This is the best shoping maal in pune ");
+			
+	
+			
 
 			
+				// Industry
+			By industriesInputLocator = By.xpath("//div[@data-name='industry']//div[contains(@class, 'selectize-input')]");
+			driver.findElement(industriesInputLocator).click();
+
+			By agricultureOptionLocator = By.xpath("//div[contains(@class, 'selectize-dropdown')]//div[@data-value='Agriculture']"); 
+			driver.findElement(agricultureOptionLocator).click();
+			System.out.println("Selected 'Agriculture' for Industry.");
+			
+			// Stream 
+			By streamFieldLocator = By.cssSelector("[data-name='stream'] textarea.main-element");
+			driver.findElement(streamFieldLocator).sendKeys("Ok this is stream content.");
+			Thread.sleep(Duration.ofSeconds(2));
+			
+			// Description 
+			driver.findElement(By.xpath("//textarea[@data-name='description']")).sendKeys("This is my desription");
+			Thread.sleep(Duration.ofSeconds(5));
+
+			
+			driver.findElement(By.xpath("//button[@class='btn action btn-xs-wide edit-action-item btn-primary radius-left']")).click();
+			Thread.sleep(Duration.ofSeconds(5));
+
 			
 			
 			
