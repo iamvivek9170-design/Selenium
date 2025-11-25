@@ -1358,3 +1358,211 @@
 2025-11-25 01:46:36,285 [Worker-45: Launching Flipkart] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2025-11-25 01:46:36,287 [Worker-45: Launching Flipkart] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
 2025-11-25 01:48:08,533 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-11-25 06:58:53,032 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-11-25 06:58:53,299 [Worker-5: Executing the early startup extensions] INFO  c.b.BrowserStackPluginActivator - Starting BrowserStack Plugin...
+2025-11-25 07:04:16,632 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-11-25 07:04:16,635 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-11-25 07:04:16,641 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/test
+2025-11-25 07:04:16,643 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-11-25 07:04:16,643 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-11-25 07:04:16,646 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/test
+2025-11-25 07:04:30,207 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:04:30,212 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 07:04:30,218 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:04:30,220 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 07:04:30,991 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:04:30,993 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 07:04:30,996 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:04:30,997 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 07:27:47,246 [Worker-16: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:27:47,445 [Worker-16: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:27:47,449 [Worker-16: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 07:27:47,452 [Worker-16: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:27:47,456 [Worker-16: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 07:28:09,434 [Worker-20: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:28:09,437 [Worker-20: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:28:46,608 [Worker-19: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:28:46,610 [Worker-19: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:29:17,064 [Worker-16: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:29:17,066 [Worker-16: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:29:43,408 [Worker-22: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:29:43,409 [Worker-22: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:31:20,912 [Worker-16: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:31:20,914 [Worker-16: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:31:54,256 [Worker-23: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:31:54,257 [Worker-23: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:31:54,566 [Worker-23: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:31:54,576 [Worker-23: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 07:31:54,580 [Worker-23: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:31:54,585 [Worker-23: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 07:32:18,955 [Worker-24: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:32:18,956 [Worker-24: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:32:19,164 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:32:19,171 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 07:32:19,175 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:32:19,179 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 07:33:07,999 [Worker-19: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:33:08,000 [Worker-19: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:33:08,190 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:33:08,194 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 07:33:08,197 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:33:08,200 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 07:34:29,967 [Worker-24: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:34:29,968 [Worker-24: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:34:30,050 [Worker-26: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:35:52,241 [Worker-24: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:35:52,246 [Worker-24: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:35:52,247 [Worker-24: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:35:52,571 [Worker-24: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:35:52,573 [Worker-24: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 07:35:52,575 [Worker-24: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:35:52,579 [Worker-24: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 07:37:44,920 [Worker-28: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:37:44,921 [Worker-28: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:37:45,113 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:37:45,115 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 07:37:45,118 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:37:45,121 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 07:39:36,241 [Worker-19: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:39:36,243 [Worker-19: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:39:36,495 [Worker-19: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:39:36,504 [Worker-19: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 07:39:36,506 [Worker-19: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:39:36,509 [Worker-19: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 07:40:52,872 [Worker-28: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:40:52,874 [Worker-28: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:40:53,082 [Worker-28: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:40:53,084 [Worker-28: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 07:40:53,086 [Worker-28: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:40:53,088 [Worker-28: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 07:53:51,236 [Worker-24: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 07:53:51,237 [Worker-24: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 07:53:51,433 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:53:51,456 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 07:53:51,459 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 07:53:51,461 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:04:42,787 [Worker-31: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:04:42,788 [Worker-31: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:04:42,982 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:04:42,984 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:04:42,986 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:04:42,989 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:06:19,410 [Worker-33: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:06:19,412 [Worker-33: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:06:45,748 [Worker-30: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:06:45,749 [Worker-30: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:06:45,821 [Worker-35: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:08:35,332 [Worker-30: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:08:35,336 [Worker-30: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:08:35,337 [Worker-30: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:08:35,535 [Worker-30: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:08:35,539 [Worker-30: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:08:35,541 [Worker-30: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:08:35,543 [Worker-30: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:11:09,461 [Worker-34: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:11:09,463 [Worker-34: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:11:09,617 [Worker-34: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:11:09,619 [Worker-34: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:11:09,621 [Worker-34: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:11:09,623 [Worker-34: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:13:47,063 [Worker-35: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:13:47,064 [Worker-35: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:13:47,221 [Worker-35: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:13:47,224 [Worker-35: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:13:47,226 [Worker-35: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:13:47,228 [Worker-35: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:17:39,078 [Worker-41: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:17:39,080 [Worker-41: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:17:39,272 [Worker-41: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:17:39,274 [Worker-41: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:17:39,276 [Worker-41: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:17:39,279 [Worker-41: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:18:02,439 [Worker-31: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:18:02,440 [Worker-31: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:18:02,641 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:18:02,643 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:18:02,647 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:18:02,649 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:23:27,279 [Worker-35: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:23:27,280 [Worker-35: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:23:27,472 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:23:27,474 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:23:27,478 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:23:27,480 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:24:06,535 [Worker-42: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:24:06,536 [Worker-42: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:24:06,754 [Worker-42: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:24:06,756 [Worker-42: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:24:06,758 [Worker-42: Launching Amezon] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:24:06,761 [Worker-42: Launching Amezon] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:24:51,792 [Worker-42: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:24:51,793 [Worker-42: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:24:51,984 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:24:51,986 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:24:51,990 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:24:51,992 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:25:42,380 [Worker-41: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:25:42,381 [Worker-41: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:26:43,375 [Worker-41: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:26:43,376 [Worker-41: Launching Amezon] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:27:27,543 [Worker-45: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:27:27,545 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:27:27,548 [Worker-45: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:27:27,554 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:27:31,505 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-11-25 08:27:31,505 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-11-25 08:27:31,508 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/test
+2025-11-25 08:27:31,509 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-11-25 08:27:31,509 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-11-25 08:27:31,513 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/test
+2025-11-25 08:27:53,253 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:27:53,256 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:27:53,259 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:27:53,262 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:28:56,967 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:28:56,969 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:28:56,971 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:28:56,973 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:32:13,163 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:32:13,167 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:32:13,169 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:32:13,171 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:43:36,264 [Worker-47: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:43:36,268 [Worker-47: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:43:36,528 [Worker-47: Launching Google_login] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:43:36,532 [Worker-47: Launching Google_login] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:43:36,535 [Worker-47: Launching Google_login] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:43:36,561 [Worker-47: Launching Google_login] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:58:26,878 [Worker-52: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:58:26,879 [Worker-52: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 08:58:27,074 [Worker-52: Launching Google_login] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:58:27,076 [Worker-52: Launching Google_login] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 08:58:27,079 [Worker-52: Launching Google_login] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 08:58:27,081 [Worker-52: Launching Google_login] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 08:58:45,381 [Worker-49: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 08:58:45,382 [Worker-49: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 09:03:12,670 [Worker-57: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 09:03:12,672 [Worker-57: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 09:03:12,867 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 09:03:12,870 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 09:03:12,873 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 09:03:12,877 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 09:03:31,734 [Worker-59: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 09:03:31,735 [Worker-59: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 09:04:25,005 [Worker-58: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 09:04:25,006 [Worker-58: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 09:04:25,188 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 09:04:25,190 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 09:04:25,193 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 09:04:25,195 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 09:04:57,295 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 09:04:57,297 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 09:04:57,299 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 09:04:57,301 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 09:05:00,512 [Worker-57: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-11-25 09:05:00,513 [Worker-57: Launching Google_login] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-11-25 09:20:37,634 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 09:20:37,636 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-25 09:20:37,638 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-25 09:20:37,640 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-11-25 09:20:39,449 [Framework stop - Equinox Container: 4897bddf-69e6-4f97-b6ad-1d5e31bf72b3] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...

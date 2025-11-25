@@ -1,0 +1,26 @@
+package lab_session;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+
+public class Amezon {
+public static void main(String[] args) {
+	WebDriver dr = new ChromeDriver();
+	
+	dr.get("https://amazon.in");
+	
+	Actions fre = new Actions(dr);
+	fre.moveToElement(dr.findElement(By.cssSelector("//button[@aria-label='Fresh Details']"))).click();
+	Action fresh = fre.build();
+	fresh.perform();
+
+	
+	
+	
+	
+	
+}
+}
