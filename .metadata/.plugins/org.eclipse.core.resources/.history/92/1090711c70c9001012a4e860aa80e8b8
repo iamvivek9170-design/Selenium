@@ -1,0 +1,48 @@
+package lab_session;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+
+public class Flipkart {
+public static void main(String[] args) throws InterruptedException {
+	
+	WebDriver dr = new ChromeDriver();
+	
+	
+	dr.get("https://www.flipkart.com/");
+	
+	Thread.sleep(Duration.ofSeconds(3));
+
+	Actions acton = new Actions(dr).moveToElement(dr.findElement(By.xpath("//*[@class=\"_1ch8e_\"]"))).pause(Duration.ofSeconds(5));
+	Action act = acton.build();
+	
+	
+	act.perform();
+
+	
+//	Actions audoi = new Actions(dr).moveToElement(dr.findElement(By.xpath
+//			("//a[@href=\"/electronics-best-offers-store?fm=neo%2Fmerchandising&iid=M_0d5d6cbc-4361-4335-8b26-6330b249338b_1_X1NCR146KC29_MC.DGVVDBVF8KEX&cid=DGVVDBVF8KEX\"]"))).pause(Duration.ofSeconds(5));
+//	Action aud = audoi.build();
+//	aud.perform();
+	
+	
+	Thread.sleep(5000);
+	
+//	Actions actions = new Actions(driver).moveToElement(driver.findElement(By.className("box"))).contextClick()
+//			.pause(1000).click(driver.findElement(By.xpath("//button[@data-action='copy']")))
+//			.pause(1000);
+//	Action act = actions.build();
+//	
+	
+	
+//	electronics    (//*[@class="_2puWtW _3a3qyb"])[4]
+	
+	
+	
+}
+}

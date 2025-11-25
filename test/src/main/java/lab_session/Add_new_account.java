@@ -50,21 +50,92 @@ btnLogin.click();
 Thread.sleep(Duration.ofSeconds(5));
 	
 	
-//http://localhost/espocrm/#Account
 	
 	dr.get("http://localhost/espocrm/#Account");
 
 	
-	dr.findElement(By.xpath("a[@href='#Account/create' and @data-name='Account']")).click();
 	
 	
 	Thread.sleep(Duration.ofSeconds(5));
 
-//	a[@href='#Account/create' and @data-name='Account']
+	dr.findElement(By.xpath("//div[@class='page-header-column-2']//a")).click();
 	
-//"//div[@class='header-buttons btn-group pull-right']//a[@data-action='create']"
+//	page open to fill 
+	Thread.sleep(Duration.ofSeconds(5));
+	dr.findElement(By.xpath("//input[@data-name='name']")).sendKeys("Vivek");
+	
+	Thread.sleep(Duration.ofSeconds(5));
 	
 	
+	// enter website
+	dr.findElement(By.xpath("(//input[@class=\"main-element form-control\"])[2]")).sendKeys("https://www.flipkart.com/");
+	Thread.sleep(Duration.ofSeconds(5));
+
+	dr.findElement(By.xpath("//input[@class='form-control email-address']")).sendKeys("Vivek123@gmail.com");
+	
+	
+	// phone number 
+	dr.findElement(By.xpath("//input[@class='form-control phone-number numeric-text no-margin-shifting  ']")).sendKeys("1234567899");
+	
+	
+//	driver.findElement(By.xpath("")).sendKeys("");
+	
+	// Billing Address 
+	dr.findElement(By.xpath("(//textarea[@class='form-control auto-height'])[1]")).sendKeys("Panchavti");
+	dr.findElement(By.xpath("(//input[@placeholder=\"City\"])[1]")).sendKeys("Pune");
+	dr.findElement(By.xpath("(//input[@placeholder=\"State\"])[1]")).sendKeys("Maharashtra");
+	dr.findElement(By.xpath("(//input[@placeholder=\"Postal Code\"])[1]")).sendKeys("121234");
+	dr.findElement(By.xpath("(//input[@placeholder=\"Country\"])[1]")).sendKeys("India");
+	
+	
+	// Shopping Address 
+	dr.findElement(By.xpath("(//textarea[@placeholder=\"Street\"])[2]")).sendKeys("Pashan");
+	dr.findElement(By.xpath("(//input[@placeholder=\"City\"])[2]")).sendKeys("Pune");
+	dr.findElement(By.xpath("(//input[@placeholder=\"Country\"])[2]")).sendKeys("India");
+	dr.findElement(By.xpath("(//input[@placeholder=\"State\"])[2]")).sendKeys("Maharashtra");
+	dr.findElement(By.xpath("(//input[@placeholder=\"Postal Code\"])[2]")).sendKeys("121234");
+	
+//	// Detail 
+//		// Types				
+	// Click the input (from Step 1)
+	dr.findElement(By.xpath("//div[@data-name='type']//div[contains(@class, 'selectize-input')]")).click();
+	Thread.sleep(Duration.ofSeconds(5));
+
+	// Find and click the 'Customer' option (Step 2)
+	dr.findElement(By.xpath("//div[contains(@class, 'selectize-dropdown')]//div[@data-value='Customer']")).click();		
+	
+	
+
+	
+
+	
+		// Industry
+	By industriesInputLocator = By.xpath("//div[@data-name='industry']//div[contains(@class, 'selectize-input')]");
+	dr.findElement(industriesInputLocator).click();
+
+	By agricultureOptionLocator = By.xpath("//div[contains(@class, 'selectize-dropdown')]//div[@data-value='Agriculture']"); 
+	dr.findElement(agricultureOptionLocator).click();
+	System.out.println("Selected 'Agriculture' for Industry.");
+	
+	
+	// Description 
+	dr.findElement(By.xpath("//textarea[@data-name='description']")).sendKeys("This is my desription");
+	Thread.sleep(Duration.ofSeconds(5));
+
+	
+	dr.findElement(By.xpath("//button[@class='btn action btn-xs-wide detail-action-item btn-primary radius-left']")).click();
+	
+	Thread.sleep(Duration.ofSeconds(5));
+
+	
+	
+	
+	
+	
+	
+	
+	dr.quit();
+
 }
 	
 

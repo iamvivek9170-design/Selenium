@@ -1,3 +1,6 @@
+///open add and open phone number +code 
+///// not select india 
+
 package lab_session;
 
 import java.time.Duration;
@@ -45,7 +48,8 @@ Thread.sleep(Duration.ofSeconds(5));
 
 	dr.findElement(By.xpath("//*[@id='iti-2__item-in']/span[1]")).click();
 
-	
+	Thread.sleep(Duration.ofSeconds(5));
+
 	
 	
 	
