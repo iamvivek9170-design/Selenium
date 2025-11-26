@@ -1,0 +1,46 @@
+package lab_session;
+import java.time.Duration;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class Checkboxcheck {
+	
+	
+	
+	
+	public static void  check(WebElement c) {
+		if(c.isSelected()) {
+			c.click();
+			System.out.println("element get click");
+		}
+	
+	
+	}
+	
+	public static void main(String[] args) throws InterruptedException {
+	
+		
+		WebDriver dr = new ChromeDriver();
+	dr .manage().window().maximize();
+		
+	dr.get("http://localhost/samples/elements.php");
+	Thread.sleep(Duration.ofSeconds(5));
+		
+WebElement male = dr.findElement(By.xpath("[id=\"male\"]"));
+
+
+//check method
+
+
+//WebElement female = dr.findElement(By.xpath("[id=\"sports\"]"));
+
+
+		WebElement sports = dr.findElement(By.xpath("[id=\"Music\"]"));
+
+
+WebElement music = dr.findElement(By.xpath("[id=\"female\"]"));
+
+		}
+	}
+

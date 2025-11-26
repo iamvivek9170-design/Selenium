@@ -24,8 +24,8 @@ public static void main(String[] args) throws InterruptedException {
 	
 	act.perform();
 
-	
-	Actions audoi = new Actions(dr).moveToElement(dr.findElement(By.cssSelector("//a[text()='Audio']"))).pause(Duration.ofSeconds(3))
+	// audio
+	Actions audoi = new Actions(dr).moveToElement(dr.findElement(By.xpath("//a[text()='Audio']"))).pause(Duration.ofSeconds(3))
 			.moveToElement(dr.findElement(By.cssSelector("._3490ry + a +a+a+a+a"))).click();
 	Action aud = audoi.build();
 	aud.perform();
@@ -33,12 +33,14 @@ public static void main(String[] args) throws InterruptedException {
 	
 	Thread.sleep(5000);
 	
-
-	
+//	[class='uAl2uE'] +a +a +a +a +a +a
+Actions	sound = new Actions(dr).moveToElement(dr.findElement(By.xpath("(//a[text()='Soundbars'])[2]"))).pause(3000).click();
+Action soundbar = sound.build();
+soundbar.perform();
 	
 //	electronics    (//*[@class="_2puWtW _3a3qyb"])[4]
 	
-	
+	dr.quit();
 	
 }
 }

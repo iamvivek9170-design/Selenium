@@ -1,0 +1,45 @@
+package lab_session;
+import java.time.Duration;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class IsChecked {
+public static void main(String[] args) throws InterruptedException {
+WebDriver driver= new ChromeDriver();
+driver.manage().window().maximize();
+driver.get(&quot;https://opensource-demo.orangehrmlive.com/web/index.php/auth/login&quot;);
+Thread.sleep(Duration.ofSeconds(5));
+WebElement
+
+uname=driver.findElement(By.xpath(&quot;//*[@name=&#39;username&#39;]&quot;));
+
+Thread.sleep(Duration.ofSeconds(5));
+uname.sendKeys(&quot;Admin&quot;);
+WebElement
+
+upass=driver.findElement(By.xpath(&quot;//*[@name=&#39;password&#39;]&quot;));
+
+Thread.sleep(Duration.ofSeconds(5));
+upass.sendKeys(&quot;admin123&quot;);
+WebElement login=driver.findElement(By.xpath(&quot;//*[@type=&#39;submit&#39;]&quot;));
+Thread.sleep(Duration.ofSeconds(5));
+login.click();
+Thread.sleep(Duration.ofSeconds(5));
+
+driver.findElement(By.xpath(&quot;//*[@id=\&quot;app\&quot;]/div[1]/div[1]/aside/nav/div[2]/ul/li
+[6]/a&quot;)).click();
+
+Thread.sleep(Duration.ofSeconds(8));
+//myinfo.click();
+WebElement checkbox=driver.findElement(By.xpath(&quot;//i[@class=\&quot;oxd-
+
+icon bi-check oxd-checkbox-input-icon\&quot;][1]&quot;));
+public void check(WebElement c) {
+if(c.isSelected()) {
+c.click();
+System.out.println(&quot;element get click&quot;);
+}
+}
+}
+}

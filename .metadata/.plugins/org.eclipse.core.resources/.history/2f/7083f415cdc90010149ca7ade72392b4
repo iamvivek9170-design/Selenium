@@ -1,0 +1,41 @@
+package lab_session;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class espocrm_login_with_wait {
+public static void main(String[] args) {
+	
+	WebDriver dr = new ChromeDriver();
+	
+	dr.get("http://localhost/espocrm/");
+	System.out.println("Page open successfully");
+	
+	dr.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	
+	dr.findElement(By.cssSelector("[name='username']")).sendKeys("admin");
+	System.out.println("Username taken successfully");
+	
+	dr.findElement(By.cssSelector("[name=\"password\"]")).sendKeys("admin");
+	System.out.println("Pasword taken successfully");
+	
+	dr.findElement(By.cssSelector("[type=\"submit\"]")).click();
+	System.out.println("Login successfully");
+	
+	String text = dr.findElement(By.cssSelector("[data-name=\"Home\"]  > a > span + span")).getTagName();
+	
+	String texti = dr.findElement(By.cssSelector("[data-name=\"Home\"]  > a > span + span")).getText();
+	
+	System.out.println(text + ","+ texti);
+	dr.quit();
+	
+	
+	
+	
+	
+	
+}
+}

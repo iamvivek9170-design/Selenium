@@ -10,8 +10,6 @@ public class Google_login {
 	public static void main(String[] args) {
 		
 		
-		
-		
 		WebDriver dr = new ChromeDriver();
 		
 		
@@ -25,13 +23,6 @@ public class Google_login {
 		
 		
 		dr.findElement(By.cssSelector("[type=\"password\"]")).sendKeys("Password"); ////// enter your password 
-		
-		
-//		div.VfPpkd-dgl2Hf-ppHlrf-sM5MNb > button[jsname="LgbsSe"]
-		
-		
-		
+			
 	}
-	
-	
 }

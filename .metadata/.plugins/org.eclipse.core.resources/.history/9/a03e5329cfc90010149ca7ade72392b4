@@ -1,0 +1,46 @@
+package lab_session;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+
+public class Flipkart {
+public static void main(String[] args) throws InterruptedException {
+	
+	WebDriver dr = new ChromeDriver();
+	dr.manage().window().maximize();
+	
+	dr.get("https://www.flipkart.com/");
+	
+	Thread.sleep(Duration.ofSeconds(3));
+
+	Actions acton = new Actions(dr).moveToElement(dr.findElement(By.xpath("//span[text()='Electronics']"))).pause(Duration.ofSeconds(5));
+	Action act = acton.build();
+	
+	
+	act.perform();
+
+	
+	Actions audoi = new Actions(dr).moveToElement(dr.findElement(By.cssSelector("//a[text()='Audio']"))).pause(Duration.ofSeconds(3))
+			.moveToElement(dr.findElement(By.cssSelector("._3490ry + a +a+a+a+a"))).click();
+	Action aud = audoi.build();
+	aud.perform();
+	
+	
+	Thread.sleep(5000);
+	
+//	[class='uAl2uE'] +a +a +a +a +a +a
+//Actions	sound = new Actions(dr).moveToElement(dr.findElement(By.cssSelector("[class='uAl2uE'] +a +a +a +a +a +a"))).pause(3000).click();
+Action soundbar = sound.build();
+soundbar.perform();
+	
+//	electronics    (//*[@class="_2puWtW _3a3qyb"])[4]
+	
+	
+	
+}
+}

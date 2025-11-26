@@ -13,6 +13,7 @@ public static void main(String[] args) throws InterruptedException {
 	WebDriver dr = new ChromeDriver();
 	
 	dr.get("https://amazon.in");
+	dr.manage().window().maximize();
 	
 	dr.findElement(By.xpath("//button[@class='a-button-text']")).click();
 	
@@ -30,7 +31,8 @@ public static void main(String[] args) throws InterruptedException {
 	
 	Actions drink = new Actions(dr);
 	drink.scrollToElement(dr.findElement(By.cssSelector("[alt=\"Juices&Colddrinks\"]"))).build().perform();
-	
+	Thread.sleep(Duration.ofSeconds(10));
+
 	dr.quit();
 	
 	
