@@ -4860,3 +4860,305 @@ java -ea -classpath C:\Users\cdac\eclipse\java-2025-06\eclipse\configuration\org
 
 !ENTRY com.browserstack.eclipse 1 0 2025-11-27 14:33:21.000
 !MESSAGE Stopping BrowserStack Plugin...
+!SESSION 2025-11-28 12:18:39.756 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\cdac\Documents\GitHub\Selenium
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-28 12:18:41.784
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-28 12:18:43.591
+!MESSAGE Logback config file: C:\Users\cdac\Documents\GitHub\Selenium\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:18:51.826
+!MESSAGE Starting BrowserStack Plugin...
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-28 12:18:51.968
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\cdac'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:18:51.993
+!MESSAGE BrowserStack Plugin on Startup...
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:19:56.295
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:19:56.307
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:20:11.694
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:21:05.626
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:21:05.633
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:32:01.789
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:32:01.805
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:32:54.186
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:32:54.192
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface 2 0 2025-11-28 12:33:00.511
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-11-28 12:33:00.511
+!MESSAGE A conflict occurred for ALT+SHIFT+B:
+Binding(ALT+SHIFT+B,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb,Show In Breadcrumb,
+		Shows the Java editor breadcrumb and sets the keyboard focus into it,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+B,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb,Show In Breadcrumb,
+		Shows the Java editor breadcrumb and sets the keyboard focus into it,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.breadcrumbEditorScope,,,system)
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:33:16.253
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:33:16.263
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:37:10.838
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:37:10.844
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:39:55.640
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:39:55.646
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:40:01.647
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:40:33.487
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:40:33.490
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:40:33.504
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:41:04.874
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:41:04.899
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:41:47.782
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:41:47.796
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:42:01.442
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:42:01.461
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:42:56.684
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:42:56.689
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:43:00.261
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:43:12.642
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:44:00.780
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:44:00.784
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:44:03.904
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:44:03.905
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:44:03.907
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:44:23.515
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:44:23.519
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:44:39.884
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:44:39.887
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:45:08.128
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:45:08.130
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:45:08.132
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:47:02.080
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:47:02.083
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:52:39.134
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:52:39.137
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:53:44.564
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:53:44.568
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:54:26.005
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:54:26.008
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:54:59.923
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:54:59.926
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:55:00.154
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:55:00.168
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:55:22.778
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:55:49.191
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:55:49.194
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:56:21.355
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:56:21.357
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 12:56:21.359
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:57:28.051
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:57:28.069
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:59:49.629
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 12:59:49.633
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:00:04.381
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:00:04.385
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:00:21.112
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:00:21.117
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:00:58.606
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:00:58.610
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 13:00:59.706
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 13:00:59.709
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:01:14.663
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:01:14.668
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 13:01:17.304
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 13:01:17.307
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 13:03:13.224
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 13:03:13.227
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 13:03:45.284
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-11-28 13:03:45.287
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:03:45.482
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:03:45.486
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:04:03.313
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:04:03.320
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:06:38.256
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-28 13:06:38.262
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
