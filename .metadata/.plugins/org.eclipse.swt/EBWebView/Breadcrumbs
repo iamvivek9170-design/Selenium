@@ -1,30 +1,169 @@
-0:47:48 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-0:47:48 Microsoft.Shutdown.TabStripModel.CloseAllTabs
-0:47:48 Microsoft.Shutdown.TabStripModel.CloseTabs
-0:47:48 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
-0:47:48 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
-0:47:48 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
-0:47:48 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
-0:47:48 Microsoft.Shutdown.TabStripModel.CloseWebContentses
-0:47:48 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
-0:47:48 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
-0:47:48 Tab5 RenderProcessGone
-0:47:48 Microsoft.UnloadController.ClearUnloadState
-0:47:48 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
-0:47:48 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
-0:47:48 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
-0:47:48 Microsoft.UnloadController.ClearUnloadState
-0:47:48 Browser5 Close Tab5 at 0
-0:47:48 Tab5 WebContentsDestroyed
-0:47:48 Microsoft.UnloadController.TabStripEmpty
-0:47:48 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-0:47:48 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-0:47:48 Microsoft.Shutdown.OnWindowClosing
-0:47:48 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-0:47:48 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-0:47:48 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-0:47:48 Widget Closed: BrowserWidget
-0:47:48 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-0:47:48 Microsoft.Shutdown.OnWindowClosing
-0:47:48 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
-0:47:48 Microsoft.Browser_Removed
+6:07:14 Tab31 StartNav283 #typed
+6:07:14 Tab31 FinishNav283
+6:07:14 Tab31 PageLoad
+6:07:15 Tab31 StartNav284 #typed
+6:07:15 Tab31 FinishNav284
+6:07:15 Tab31 PageLoad
+6:07:19 Tab31 StartNav285 #typed
+6:07:19 Tab31 FinishNav285
+6:07:19 Tab31 PageLoad
+6:07:31 Tab31 StartNav286 #typed
+6:07:31 Tab31 FinishNav286
+6:07:31 Tab31 PageLoad
+6:08:24 Tab31 StartNav287 #typed
+6:08:24 Tab31 FinishNav287
+6:08:24 Tab31 PageLoad
+6:09:00 Tab31 StartNav288 #typed
+6:09:00 Tab31 FinishNav288
+6:09:00 Tab31 PageLoad
+6:09:00 Tab31 StartNav289 #typed
+6:09:00 Tab31 FinishNav289
+6:09:00 Tab31 PageLoad
+6:09:01 Tab31 StartNav290 #typed
+6:09:01 Tab31 FinishNav290
+6:09:01 Tab31 PageLoad
+6:09:04 Tab31 StartNav291 #typed
+6:09:04 Tab31 FinishNav291
+6:09:04 Tab31 PageLoad
+6:09:10 Tab31 StartNav292 #typed
+6:09:10 Tab31 FinishNav292
+6:09:10 Tab31 PageLoad
+6:09:11 Tab31 StartNav293 #typed
+6:09:11 Tab31 FinishNav293
+6:09:11 Tab31 PageLoad
+6:09:12 Tab31 StartNav294 #typed
+6:09:12 Tab31 FinishNav294
+6:09:12 Tab31 PageLoad
+6:09:42 Tab31 StartNav295 #typed
+6:09:42 Tab31 FinishNav295
+6:09:42 Tab31 PageLoad
+6:09:45 Tab31 StartNav296 #typed
+6:09:45 Tab31 FinishNav296
+6:09:45 Tab31 PageLoad
+6:10:01 Tab31 StartNav297 #typed
+6:10:01 Tab31 FinishNav297
+6:10:01 Tab31 PageLoad
+6:10:02 Tab31 StartNav298 #typed
+6:10:02 Tab31 FinishNav298
+6:10:02 Tab31 PageLoad
+6:10:03 Tab31 StartNav299 #typed
+6:10:03 Tab31 FinishNav299
+6:10:03 Tab31 PageLoad
+6:10:05 Tab31 StartNav300 #typed
+6:10:05 Tab31 FinishNav300
+6:10:05 Tab31 PageLoad
+6:10:10 Tab31 StartNav301 #typed
+6:10:10 Tab31 FinishNav301
+6:10:10 Tab31 PageLoad
+6:10:10 Tab31 StartNav302 #typed
+6:10:10 Tab31 FinishNav302
+6:10:10 Tab31 PageLoad
+6:10:12 Tab31 StartNav303 #typed
+6:10:12 Tab31 FinishNav303
+6:10:12 Tab31 PageLoad
+6:10:13 Tab31 StartNav304 #typed
+6:10:13 Tab31 FinishNav304
+6:10:13 Tab31 PageLoad
+6:10:16 Tab31 StartNav305 #typed
+6:10:16 Tab31 FinishNav305
+6:10:16 Tab31 PageLoad
+6:10:18 Tab31 StartNav306 #typed
+6:10:18 Tab31 FinishNav306
+6:10:18 Tab31 PageLoad
+6:10:20 Tab31 StartNav307 #typed
+6:10:20 Tab31 FinishNav307
+6:10:20 Tab31 PageLoad
+6:10:24 Tab31 StartNav308 #typed
+6:10:24 Tab31 FinishNav308
+6:10:24 Tab31 PageLoad
+6:10:31 Tab31 StartNav309 #typed
+6:10:31 Tab31 FinishNav309
+6:10:31 Tab31 PageLoad
+6:10:33 Tab31 StartNav310 #typed
+6:10:33 Tab31 FinishNav310
+6:10:33 Tab31 PageLoad
+6:10:34 Tab31 StartNav311 #typed
+6:10:34 Tab31 FinishNav311
+6:10:34 Tab31 PageLoad
+6:10:35 Tab31 StartNav312 #typed
+6:10:35 Tab31 FinishNav312
+6:10:35 Tab31 PageLoad
+6:10:35 Tab31 StartNav313 #typed
+6:10:35 Tab31 FinishNav313
+6:10:35 Tab31 PageLoad
+6:11:13 Tab31 StartNav314 #typed
+6:11:13 Tab31 FinishNav314
+6:11:13 Tab31 PageLoad
+6:11:14 Tab31 StartNav315 #typed
+6:11:14 Tab31 FinishNav315
+6:11:14 Tab31 PageLoad
+6:11:17 Tab31 StartNav316 #typed
+6:11:17 Tab31 FinishNav316
+6:11:17 Tab31 PageLoad
+6:11:18 Tab31 StartNav317 #typed
+6:11:18 Tab31 FinishNav317
+6:11:18 Tab31 PageLoad
+6:11:20 Tab31 StartNav318 #typed
+6:11:20 Tab31 FinishNav318
+6:11:20 Tab31 PageLoad
+6:11:22 Tab31 StartNav319 #typed
+6:11:22 Tab31 FinishNav319
+6:11:22 Tab31 PageLoad
+6:11:32 Tab31 StartNav320 #typed
+6:11:32 Tab31 FinishNav320
+6:11:32 Tab31 PageLoad
+6:11:35 Tab31 StartNav321 #typed
+6:11:35 Tab31 FinishNav321
+6:11:35 Tab31 PageLoad
+6:11:37 Tab31 StartNav322 #typed
+6:11:37 Tab31 FinishNav322
+6:11:37 Tab31 PageLoad
+6:11:39 Tab31 StartNav323 #typed
+6:11:39 Tab31 FinishNav323
+6:11:39 Tab31 PageLoad
+6:11:43 Tab31 StartNav324 #typed
+6:11:43 Tab31 FinishNav324
+6:11:43 Tab31 PageLoad
+6:11:44 Tab31 StartNav325 #typed
+6:11:44 Tab31 FinishNav325
+6:11:44 Tab31 PageLoad
+6:11:47 Tab31 StartNav326 #typed
+6:11:47 Tab31 FinishNav326
+6:11:47 Tab31 PageLoad
+6:11:51 Tab31 StartNav327 #typed
+6:11:51 Tab31 FinishNav327
+6:11:51 Tab31 PageLoad
+6:13:54 Tab31 StartNav328 #typed
+6:13:54 Tab31 FinishNav328
+6:13:54 Tab31 PageLoad
+6:14:02 Tab31 StartNav329 #typed
+6:14:02 Tab31 FinishNav329
+6:14:02 Tab31 PageLoad
+6:14:03 Tab31 StartNav330 #typed
+6:14:03 Tab31 FinishNav330
+6:14:03 Tab31 PageLoad
+6:15:01 Tab31 StartNav331 #typed
+6:15:01 Tab31 FinishNav331
+6:15:01 Tab31 PageLoad
+6:15:02 Tab31 StartNav332 #typed
+6:15:02 Tab31 FinishNav332
+6:15:02 Tab31 PageLoad
+6:15:02 Tab31 StartNav333 #typed
+6:15:03 Tab31 FinishNav333
+6:15:03 Tab31 PageLoad
+6:15:04 Tab31 StartNav334 #typed
+6:15:04 Tab31 FinishNav334
+6:15:04 Tab31 PageLoad
+6:16:02 Tab31 StartNav335 #typed
+6:16:02 Tab31 FinishNav335
+6:16:02 Tab31 PageLoad
+6:16:11 Tab31 StartNav336 #typed
+6:16:11 Tab31 FinishNav336
+6:16:11 Tab31 PageLoad
+6:17:01 Tab31 StartNav337 #typed
+6:17:01 Tab31 FinishNav337
+6:17:01 Tab31 PageLoad
+6:17:20 Tab15 StartNav338 #typed
+6:17:20 Tab15 FinishNav338
+6:17:20 Tab15 PageLoad
+6:20:39 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp

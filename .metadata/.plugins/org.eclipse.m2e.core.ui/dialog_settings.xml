@@ -71,6 +71,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\cdac\Documents\GitHub\Selenium\data-reader"/>
+			<item value="C:\Users\cdac\Documents\GitHub\Selenium\pom-selenium-2"/>
+			<item value="C:\Users\cdac\Documents\GitHub\Selenium\selenium-grid"/>
 			<item value="C:\Users\cdac\Documents\GitHub\Selenium\pom-selenium"/>
 		</list>
 		<list key="projectNameTemplate">

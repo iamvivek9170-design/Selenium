@@ -24,5 +24,9 @@
     <fullyQualifiedTypeName name="page.BasePage"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="page.LogoutPage"/>
+    <fullyQualifiedTypeName name="drivermanager.DriverFactory"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="com.opencsv.CSVReader"/>
+    <fullyQualifiedTypeName name="user.User"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
